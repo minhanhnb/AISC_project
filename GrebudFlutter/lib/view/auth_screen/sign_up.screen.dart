@@ -9,7 +9,7 @@ import 'package:grebudflutter/widget_common/our_button.dart';
 import '../../widget_common/custom_textfield.dart';
 
 class SignupScreen extends StatefulWidget{
-  const SignupScreen({Key? key}) : super(key : key);
+  const SignupScreen({super.key});
 
   @override 
   SignupScreenState createState() =>SignupScreenState();
@@ -61,7 +61,7 @@ class SignupScreenState extends State<SignupScreen>
                     ),
                     10.widthBox,
                     Expanded(
-                    child: RichText(text: TextSpan(
+                    child: RichText(text: const TextSpan(
                       children : 
                       [
                         TextSpan(text:"Tôi đồng ý với "

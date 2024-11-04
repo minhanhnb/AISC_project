@@ -5,7 +5,7 @@ import 'package:grebudflutter/const/images.dart';
 Widget bgWidget({required Widget child}) {
   return Container(
     decoration: const BoxDecoration(
-       color: const Color.fromARGB(244, 9, 244, 32), // bao quanh logo màu nền 
+       color: Color.fromARGB(244, 9, 244, 32), // bao quanh logo màu nền 
     ),
     child: child, // Widget con
   );

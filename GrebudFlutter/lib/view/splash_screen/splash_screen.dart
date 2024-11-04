@@ -17,7 +17,7 @@ class SplashScreenState extends State<SplashScreen>{
   //Create a method to change screen
   changeScreen()
   {
-    Future.delayed(Duration(seconds : 3),(){
+    Future.delayed(const Duration(seconds : 3),(){
       //using getX
       Get.to(() => const LoginScreen());
 

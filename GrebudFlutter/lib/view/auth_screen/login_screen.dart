@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:grebudflutter/view/auth_screen/sign_up.screen.dart';
-import 'package:grebudflutter/view/home_screen/home_screen.dart';
+import 'package:grebudflutter/view/home_screen/home.dart';
 //import 'package:grebudflutter/main.dart';
 import 'package:grebudflutter/widget_common/log_widget.dart';
 import 'package:grebudflutter/widget_common/applogo_widget.dart';
@@ -14,7 +14,7 @@ import 'package:get/get.dart';
 
 //StatelessWidget là giao diện không thay đổi
 class LoginScreen extends StatelessWidget{
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
   //Constructor khởi tạo, chỉ ra đucojw khởi tạo với giá trị không đổi
   // key là một tham số tùy chọn, giúp phân biệt
   //super.. gọi constructor của lớp cha và truyền key
@@ -48,7 +48,7 @@ class LoginScreen extends StatelessWidget{
 
 
                   ourButton(color: darkGreen, title : "Đăng nhập", textColor: whiteColor, onPress: (){
-                    Get.to(()=> const HomeScreen());
+                    Get.to(()=> const Home());
                   })
                     .box
                     .width(context.screenWidth -50)

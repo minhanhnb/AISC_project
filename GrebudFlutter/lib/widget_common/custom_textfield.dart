@@ -14,7 +14,7 @@ Widget customTextField({String? title, String? hint,controller})
       
         decoration: InputDecoration(
           hintText: hint,
-          hintStyle: TextStyle(
+          hintStyle: const TextStyle(
             fontFamily : regular,
             color : grey,
           ) ,
@@ -22,7 +22,7 @@ Widget customTextField({String? title, String? hint,controller})
           fillColor: const Color.fromARGB(193, 223, 217, 217),
           filled: true,
           border : InputBorder.none, 
-          focusedBorder: OutlineInputBorder(
+          focusedBorder: const OutlineInputBorder(
             borderSide: BorderSide(color : orange)
           )
         ),

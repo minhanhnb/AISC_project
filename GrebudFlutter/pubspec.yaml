@@ -93,6 +93,18 @@ flutter:
          # - asset: fonts/OpenSans-Regular.ttf
           - asset: assets/fonts/montserrat-bold.ttf
 
+     - family: montserrat-semibold
+       fonts:
+         - asset: assets/fonts/montserrat-semibold.ttf
+
+     - family: montserrat-lightitalic
+       fonts:
+         - asset: assets/fonts/montserrat-LightItalic.ttf
+
+     - family: montserrat-italic
+       fonts:
+         - asset: assets/fonts/montserrat-Italic.ttf
+
 
 
 
